@@ -34,13 +34,13 @@ function YoutubeVideos() {
               <div className="singleVideoWrapper video-zoomin">
                 <div className="videoThumbnail">
                   <div className="">
-                    <a href={vidLink} target="_blank">
-                      <img src={singleVideo.snippet.thumbnails.high.url} />
+                    <a href={vidLink} rel="noreferrer" target="_blank">
+                      <img src={singleVideo.snippet.thumbnails.high.url} alt="logo" />
                     </a>
                   </div>
                   <div className="videoInfoWrapper">
                     <div className="videoTitle">
-                      <a href={vidLink} target="_blank">
+                      <a href={vidLink} rel="noreferrer" target="_blank">
                         {singleVideo.snippet.title}
                       </a>
                     </div>

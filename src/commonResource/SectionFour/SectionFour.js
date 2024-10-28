@@ -20,10 +20,10 @@ function SectionFour() {
                 <div className="links-wrapper">
                   <ul>
                     <li>
-                      <a href="">Learn more</a>
+                      <a href="/">Learn more</a>
                     </li>
                     <li>
-                      <a href="">Apply now</a>
+                      <a href="/">Apply now</a>
                     </li>
                   </ul>
                 </div>
@@ -38,7 +38,7 @@ function SectionFour() {
                 <div className="links-wrapper white">
                   <ul>
                     <li>
-                      <a href="">Watch the PSA</a>
+                      <a href="/">Watch the PSA</a>
                     </li>
                   </ul>
                 </div>

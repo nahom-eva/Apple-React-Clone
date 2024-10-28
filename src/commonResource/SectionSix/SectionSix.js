@@ -13,7 +13,7 @@ function SectionSix() {
               <div className="left-side-container">
                 <div className="top-logo-wrapper">
                   <div className="logo-wrapper">
-                    <img src={arcade} />
+                    <img src={arcade} alt="arcade logo" />
                   </div>
                 </div>
                 <div className="description-wraper white">
@@ -22,12 +22,12 @@ function SectionSix() {
                 <div className="links-wrapper">
                   <ul>
                     <li>
-                      <a href="">
+                      <a href="/">
                         Play now<sup>2</sup>
                       </a>
                     </li>
                     <li>
-                      <a href="">Learn about Apple Arcade</a>
+                      <a href="/">Learn about Apple Arcade</a>
                     </li>
                   </ul>
                 </div>
@@ -45,10 +45,10 @@ function SectionSix() {
                 <div className="links-wrapper">
                   <ul>
                     <li>
-                      <a href="">Learn more</a>
+                      <a href="/">Learn more</a>
                     </li>
                     <li>
-                      <a href="">Apply now</a>
+                      <a href="/">Apply now</a>
                     </li>
                   </ul>
                 </div>

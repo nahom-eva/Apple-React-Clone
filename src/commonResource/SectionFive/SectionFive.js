@@ -13,16 +13,16 @@ function SectionFive() {
 					<div className="left-side-container">
 						<div className="top-logo-wrapper">
 							<div className="logo-wrapper">
-								<img src={tv}/>
+								<img src={tv} alt='tv logo'/>
 							</div>
 						</div>
 
 						<div className="tvshow-logo-wraper">
-							<img src={banker}/>
+							<img src={banker} alt='banker logo'/>
 						</div>
 
 						<div className="watch-more-wrapper">
-							<a href="#">Watch now on the Apple TV App</a>
+							<a href="/">Watch now on the Apple TV App</a>
 						</div>
 					</div>
 				</div>
@@ -30,7 +30,7 @@ function SectionFive() {
 					<div className="right-side-container">
 						<div className="top-logo-wrapper">
 							<div className="logo-wrapper">
-								<img src={watch}/>
+								<img src={watch} alt='watch logo'/>
 							</div>
 						</div>
 						<div className="description-wraper">
@@ -39,8 +39,8 @@ function SectionFive() {
 						</div>
 						<div className="links-wrapper">
 							<ul>
-								<li><a href="">Learn more</a></li>
-								<li><a href="">Buy</a></li>
+								<li><a href="/">Learn more</a></li>
+								<li><a href="/">Buy</a></li>
 							</ul> 
 						</div>
 					</div>

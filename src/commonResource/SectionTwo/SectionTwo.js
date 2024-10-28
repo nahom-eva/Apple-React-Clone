@@ -19,10 +19,10 @@ function SectionTwo() {
           <div className="links-wrapper">
             <ul>
               <li>
-                <a href="">Learn more</a>
+                <a href="/">Learn more</a>
               </li>
               <li>
-                <a href="">Buy</a>
+                <a href="/">Buy</a>
               </li>
             </ul>
           </div>

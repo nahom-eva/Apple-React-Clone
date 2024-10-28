@@ -13,10 +13,10 @@ function SectionOne() {
           <div className="links-wrapper">
             <ul>
               <li>
-                <a href="">Learn more</a>
+                <a href="/">Learn more</a>
               </li>
               <li>
-                <a href="">Order</a>
+                <a href="/">Order</a>
               </li>
             </ul>
           </div>
