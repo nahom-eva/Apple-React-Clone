@@ -1,6 +1,7 @@
 import React from "react";
 import "./toggle";
 import flag from "../images/icons/16.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -24,23 +25,23 @@ function Footer() {
               Installments and iPhone activation with AT&T, Sprint, T-Mobile, or
               Verizon. Taxes and shipping not included. Additional Apple Card
               Monthly Installments terms are in the{" "}
-              <a
-                href="https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf"
+              <Link
+                to="https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf"
                 target="_blank"
                 rel="noreferrer" // Added rel attribute here
               >
                 {" "}
                 Customer Agreement
-              </a>
+              </Link>
               . Additional iPhone Payments terms are{" "}
-              <a
-                href="https://www.apple.com/legal/sales-support/iphoneinstallments_us/"
+              <Link
+                to="https://www.apple.com/legal/sales-support/iphoneinstallments_us/"
                 target="_blank"
                 rel="noreferrer" // Added rel attribute here
               >
                 {" "}
                 here
-              </a>
+              </Link>
               .
             </p>
             <p>
@@ -54,7 +55,7 @@ function Footer() {
               Family Sharing group. Offer good for 3 months after eligible
               device activation. Plan automatically renews until cancelled.
               Restrictions and other{" "}
-              <a href="https://www.apple.com/promo/" target="_blank" rel="noreferrer">terms</a> apply.
+              <Link to="https://www.apple.com/promo/" target="_blank" rel="noreferrer">terms</Link> apply.
             </p>
           </div>
           <div className="footer-links-wrapper row">
@@ -63,45 +64,45 @@ function Footer() {
               <h3>Shop and Learn</h3>
               <ul>
                 <li>
-                  <a href="#">Mac</a>
+                  <Link to="mac">Mac</Link>
                 </li>
                 <li>
-                  <a href="#">iPad</a>
+                  <Link to="ipad">iPad</Link>
                 </li>
                 <li>
-                  <a href="#">iPhone</a>
+                  <Link to="iphones">iPhone</Link>
                 </li>
                 <li>
-                  <a href="#">Watch</a>
+                  <Link to="watch">Watch</Link>
                 </li>
                 <li>
-                  <a href="#">TV</a>
+                  <Link to="tv">TV</Link>
                 </li>
                 <li>
-                  <a href="#">Music</a>
+                  <Link to="Music">Music</Link>
                 </li>
                 <li>
-                  <a href="#">AirPods</a>
+                  <Link to="Support">AirPods</Link>
                 </li>
                 <li>
-                  <a href="#">HomePod</a>
+                  <Link to="/">HomePod</Link>
                 </li>
                 <li>
-                  <a href="#">iPod touch</a>
+                  <Link to="/">iPod touch</Link>
                 </li>
                 <li>
-                  <a href="#">Accessories</a>
+                  <Link to="/">Accessories</Link>
                 </li>
                 <li>
-                  <a href="#">Gift Cards</a>
+                  <Link to="/">Gift Cards</Link>
                 </li>
               </ul>
             </div>
             {/* Continue with the rest of the links */}
           </div>
           <div className="my-apple-wrapper">
-            More ways to shop: <a href="#">Find an Apple Store</a> or{" "}
-            <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.
+            More ways to shop: <Link to="#">Find an Apple Store</Link> or{" "}
+            <Link to="#">other retailer</Link> near you. Or call 1-800-MY-APPLE.
           </div>
           <div className="copyright-wrapper row">
             <div className="copyright col-sm-12 order-2 col-md-8 order-md-1 col-lg-4 order-lg-1">
@@ -110,19 +111,19 @@ function Footer() {
             <div className="footer-links-terms col-sm-12 order-3 col-lg-6 order-lg-2">
               <ul>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <Link to="#">Privacy Policy</Link>
                 </li>
                 <li>
-                  <a href="#">Terms of Use</a>
+                  <Link to="#">Terms of Use</Link>
                 </li>
                 <li>
-                  <a href="#">Sales and Refunds</a>
+                  <Link to="#">Sales and Refunds</Link>
                 </li>
                 <li>
-                  <a href="#">Legal</a>
+                  <Link to="#">Legal</Link>
                 </li>
                 <li>
-                  <a href="#">Site Map</a>
+                  <Link to="#">Site Map</Link>
                 </li>
               </ul>
             </div>
